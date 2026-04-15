@@ -1,5 +1,11 @@
 [[redirects]]
-  from = "/google/*"
-  to = "https://www.google.com/:splat"
+  from = "/aisis"
+  to = "https://aisis.ateneo.edu/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/aisis/*"
+  to = "https://aisis.ateneo.edu/:splat"
   status = 200
   force = true
