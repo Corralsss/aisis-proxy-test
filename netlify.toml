@@ -9,3 +9,9 @@
   to = "https://aisis.ateneo.edu/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/aisis/*"
+  to = "https://aisis.ateneo.edu/j_aisis/displayLogin.do:splat"
+  status = 200
+  force = true
