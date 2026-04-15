@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/aisis/*"
+  to = "https://aisis.ateneo.edu/:splat"
+  status = 200
+  force = true
